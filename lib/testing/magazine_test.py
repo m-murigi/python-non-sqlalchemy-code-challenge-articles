@@ -83,7 +83,7 @@ class TestMagazine:
         # comment out the next two lines if using Exceptions
         # magazine_2.category = 2
         # assert magazine_2.category == "Architecture"
-        
+
         assert isinstance(magazine_2.category, str)
 
         # uncomment the next two lines if using Exceptions
@@ -220,6 +220,7 @@ class TestMagazine:
     #     Article(author_1, magazine_1, "How to be single and happy")
     #     Article(author_1, magazine_2, "2023 Eccentric Design Trends")
     #     Article(author_1, magazine_2, "Carrara Marble is so 2020")
-        
+
     #     assert Magazine.top_publisher() == magazine_1
     #     assert isinstance(Magazine.top_publisher(), Magazine)
+
