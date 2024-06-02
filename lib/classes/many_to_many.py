@@ -35,15 +35,6 @@ class Author:
     def name(self):
         return self._name
 
-    # Removing the setter to make the name immutable
-    # @name.setter
-    # def name(self, value):
-    #     if not isinstance(value, str):
-    #         raise TypeError("Name must be a string")
-    #     if len(value) == 0:
-    #         raise ValueError("Name must be longer than 0 characters")
-    #     self._name = value
-
     def articles(self):
         return [article for article in Article.all if article.author == self]
 
